@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Free CRM Test Application Test Suite" parallel="classes" verbose="10">
+  <test  name="Test1">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+    </classes>
+  </test>
+</suite>
